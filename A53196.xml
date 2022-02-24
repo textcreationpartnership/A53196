@@ -1,0 +1,532 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An ode occasion'd by the death of Her Sacred Majesty by a young lady.</title>
+            <author>Young lady.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53196</idno>
+            <idno type="STC">Wing O132</idno>
+            <idno type="STC">ESTC R1783</idno>
+            <idno type="EEBO-CITATION">12958925</idno>
+            <idno type="OCLC">ocm 12958925</idno>
+            <idno type="VID">96051</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53196)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 96051)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 723:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An ode occasion'd by the death of Her Sacred Majesty by a young lady.</title>
+                  <author>Young lady.</author>
+               </titleStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Cumberland ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mary --  II, --  Queen of England, 1662-1694 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:96051:1"/>
+            <!-- PDF PAGE 107 -->
+            <pb facs="tcp:96051:1"/>
+            <!-- PDF PAGE 107 -->
+            <p>AN ODE, Occaſion'd by the DEATH OF Her Sacred Majeſty.</p>
+            <p>By a Young LADY.</p>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="license">
+                        <p>Licenſed,</p>
+                        <closer>
+                           <dateline>
+                              <date>
+                                 <hi>January</hi> 9th, 1694/5.</date>
+                           </dateline>
+                           <signed>D. Poplar.</signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Richard Cumberland,</hi> at the <hi>Angel</hi> in S. Paul<hi>'s Church-Yard.</hi> MDCXCV.</p>
+         </div>
+      </front>
+      <body>
+         <div type="ode">
+            <pb facs="tcp:96051:2"/>
+            <!-- PDF PAGE 108 -->
+            <pb n="3" facs="tcp:96051:2"/>
+            <!-- PDF PAGE 108 -->
+            <head>An ODE, &amp;c.</head>
+            <lg>
+               <head>I.</head>
+               <l>PEnſive I ſtood on rais'd commodious Sands,</l>
+               <l>Where the pleas'd Eye blue <hi>Neptune</hi> beſt Commands.</l>
+               <l>The Queſtion ask'd, I to my ſelf reſolv'd,</l>
+               <l>And in wild Fancy, mighty Acts revolv'd:</l>
+               <l>'Twas through this Path (ſaid I) firſt <hi>Julius</hi> Sail'd,</l>
+               <l>Whoſe Glory Britiſh Conqueſts ſwell'd.</l>
+               <l>'Twas there—that way the <hi>Spaniard</hi> was undone,</l>
+               <l>And there the Great <hi>Dutch</hi> Fight was won.</l>
+               <l>There 'twas our more Victorious <hi>Caeſar</hi> Rode,</l>
+               <l>Circl'd in Honours, like a God;</l>
+               <l>When laſt the Royal Warrier through the briny Flood</l>
+               <l>Battle purſu'd and Fate,</l>
+               <l>In ſearch of Conqueſts of a freſher Date;</l>
+               <l>Quitting freſh Streams, to break a threatning Cloud.</l>
+               <l>To ſhew that Vict'ry only with himſelf muſt laſt.</l>
+            </lg>
+            <lg>
+               <head>II.</head>
+               <l>The Conqueror in the Preſent Tenſe, as Conqueror in the Paſt,</l>
+               <l>Left a cool Shade (ſaid I) for the hot Martial Field,</l>
+               <l>Where fiery Mouths demand, and the proud Vanquiſh'd</l>
+               <l>In Shrieks and dying Groans;</l>
+               <l>While Vict'ry through the ſhril-voic'd Trumpet ſounds. yield</l>
+               <l>Bounding on hoarſer Drums;</l>
+               <l>Thoſe Strains ſo grateful to a Soldier's Ear,</l>
+               <l>The Royal Victor Sigh'd to hear,</l>
+               <l>
+                  <pb n="4" facs="tcp:96051:3"/>
+                  <!-- PDF PAGE 109 -->
+Until the Gale grew ſtrong,</l>
+               <l>And puſh'd the loytring Veſſel on.</l>
+               <l>The din of Generous War</l>
+               <l>Prefer'd by him</l>
+               <l>To the ſoft Muſick of a ſhaken String,</l>
+               <l>And all th' Effeminate little tender things</l>
+               <l>Beneath a Mind ſo Great, fitting the Luxury of ſoſter Kings.</l>
+            </lg>
+            <lg>
+               <head>III.</head>
+               <l>Moſt bleſt of Iſles (ſaid I) what ſhouldſt thou fear,</l>
+               <l>Whom the beſt Sword protects, and ſweeteſt Smiles do</l>
+               <l>
+                  <hi>Maria</hi> I would have ſaid; but offering on,</l>
+               <l>The ſmooth word ſtumbl'd on my fault'ring Tongue chear?</l>
+               <l>The ominous Sign I ſtrait began to fear,</l>
+               <l>And Sigh'd, kind Heav'ns where may we be Secure!</l>
+               <l>If that be moſt Unſafe, we hold moſt Dear?</l>
+               <l>Then 'twas beneath a Common Ill ſhe lay,</l>
+               <l>And thoſe bright Eyes Eclips'd that made our day.</l>
+               <l>At the dread News, fix'd and amaz'd we ſtood,</l>
+               <l>Faint Tremblings ſeiz'd our Limbs, cold Horror chill'd our Blood.</l>
+               <l>Now Hop'd, then Pray'd, yet hardly durſt:</l>
+               <l>For <hi>Ah!</hi> ſo fain we'd not have thought the worſt.</l>
+               <l>Thus the ſad hour drew on—but <hi>Oh!</hi> the reſt</l>
+               <l>Were better told by thoſe that love the leaſt.</l>
+               <l>Thoſe might ſpeak fine that my Affection want;</l>
+               <l>I, could not here be Eloquent.</l>
+               <l>My Muſe, (ſaid I) now thou'rt a trifling thing,</l>
+               <l>Is this a time—<hi>Oh!</hi> 'tis no time to Sing.</l>
+               <l>I held even Verſe it ſelf Prophane,</l>
+               <l>But found no words to ſuit the ſacred Theam:</l>
+               <l>No word ſo ſoft as is <hi>Maria</hi>'s Name.</l>
+               <l>Learning I thought a handſom formal thing,</l>
+               <l>But he worſt Mourner ſtill that beſt could Sing:</l>
+               <l>An untaught Groan, (ſaid I) beſt Language is,</l>
+               <l>For ſuch a Tragick Scene as this.</l>
+               <l>
+                  <pb n="5" facs="tcp:96051:3"/>
+                  <!-- PDF PAGE 109 -->
+A Heart-dividing Sigh, a Natural Tear;</l>
+               <l>And Love, not Arts the better Poet here.</l>
+               <l>Aſſiſt me LOVE, I'll own no Muſe but thee,</l>
+               <l>Tho' Love ne'er writ neat Elegy.</l>
+               <l>Thoſe that lov'd not, may be exactly Wiſe,</l>
+               <l>But when I write, let only Lovers Criticiſe.</l>
+               <l>Thoſe that are wounded, cannot ſtrive for Bays,</l>
+               <l>Own my Griefs juſt and great, be that my higheſt Praiſe.</l>
+            </lg>
+            <lg>
+               <head>IV.</head>
+               <l>But why—(thus to my ſelf I Groan'd) but ſtill</l>
+               <l>Why Pant <hi>l</hi> thus to vent an Ill,</l>
+               <l>Whoſe dire Conception was enough to Kill?</l>
+               <l>Strangle th' unhappy Off-ſpring in the Birth,</l>
+               <l>That muſt come forth with Death;</l>
+               <l>
+                  <hi>Oh</hi> direful Fate!</l>
+               <l>Too big to ſmother, cruel to Relate!</l>
+               <l>I cannot—<hi>Oh, I</hi> cannot bear, (<hi>l</hi> cry'd)</l>
+               <l>And ſunk a while beneath the Load, and Dy'd.</l>
+            </lg>
+            <lg>
+               <head>V.</head>
+               <l>When lo, methought anon</l>
+               <l>A Nymph appear'd as lovely as Undone;</l>
+               <l>Fix'd on the utmoſt Shoar.</l>
+               <l>Her Breaſts ſhe beat, her untruſt Garments tore,</l>
+               <l>Which by rude whiftling Winds aloft were bore:</l>
+               <l>Aloud ſhe cry'd, in vain—</l>
+               <l>—In vain it is for thee</l>
+               <l>Frail Earth, thus to contend with Deſtiny,</l>
+               <l>That lays the Monarch level with the Swain.</l>
+               <l>
+                  <hi>Ah</hi> where—</l>
+               <l>Where now do all thoſe luckleſs ſweets remain,</l>
+               <l>Once—once thou lovelieſt Charmer of the Plain?</l>
+               <l>
+                  <pb n="6" facs="tcp:96051:4"/>
+                  <!-- PDF PAGE 110 -->
+Now to what bleſt Retreat ſhall I retire,</l>
+               <l>To gaze on thoſe bright Rays I once did ſo admire?</l>
+               <l>I come, ſhe cry'd, waving aloft her Hand;</l>
+               <l>One Foot the Water kiſs'd as on ſhe went</l>
+               <l>T imbrace the flowing Element;</l>
+               <l>The other trembling on the lateſt Sand.</l>
+               <l>Madneſs (ſaid I)</l>
+               <l>(Methought, and ſnatch'd her from her Deſtiny)</l>
+               <l>Purſue not ſo your helpleſs Mariner;</l>
+               <l>But ſhe, with a diſdainful Air,</l>
+               <l>And a Majeſtick Frown,</l>
+               <l>Half Anger, half Deſpair,</l>
+               <l>Reply'd, Bold ignorant wretch, no Mariner I mourn.</l>
+               <l>No,—theſe ſad Arms of mine have loſt</l>
+               <l>What Earth no more can boaſt.</l>
+               <l>
+                  <hi>Ah!</hi> where—where now are all thoſe skipping Joys,</l>
+               <l>The Vigor of thoſe lively Eyes;</l>
+               <l>Thoſe radiant Beams that ſeem'd to be</l>
+               <l>At ſuch defiance with Mortality?</l>
+               <l>But now—now can no more controll</l>
+               <l>The dusky Chagrin of <hi>Britannia</hi>'s Soul.</l>
+               <l>Where's now become</l>
+               <l>That Mind, that was the Royal Seat</l>
+               <l>Of all that's Generous, Gay, or Sweet?</l>
+               <l>Enough, (ſaid I) Undone!</l>
+               <l>This was the Britiſh Genius then I found,</l>
+               <l>And ſaw her Turret on the Ground.</l>
+               <l>But ſhe big with the Grief, went on;</l>
+               <l>When e'er a Vertue or a Frait,</l>
+               <l>(Continu'd ſhe) would publick be in State.</l>
+               <l>'Twas in that Face they met;</l>
+               <l>'Twas in that form Divine;</l>
+               <l>
+                  <hi>MARIA,</hi> the Queen of every Grace,</l>
+               <l>All that were Great, Good, Soft or Fine,</l>
+               <l>That Stately and Endearing was.</l>
+               <l>My awful Pleaſures, pleaſing Fears,</l>
+               <l>And now the worthieſt Subject of my Tears.</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:96051:4"/>
+               <!-- PDF PAGE 110 -->
+               <head>VI.</head>
+               <l>Cruel Diſeaſe, inſolent common Thing,</l>
+               <l>Could nothing ſatiate but a QUEEN?</l>
+               <l>The Queen of Beauty too and Love!</l>
+               <l>Oh! theſe are things methinks ſhould Sacred prove!</l>
+               <l>Was't not ſufficient to deface and tear?</l>
+               <l>Could not thy Impiety ſtop here?</l>
+               <l>Or, waſt thou not enough Prophane,</l>
+               <l>Til thou hadſt quite deſtroy'd the goodly Frame?</l>
+               <l>One would have thought only with Vulgar Duſt,</l>
+               <l>Thou might'ſt have rag'd and done thy worſt.</l>
+               <l>But here—</l>
+               <l>Hadſt thou no awful, no reſtraining fear?</l>
+               <l>Could not Languages of that charming Tongue per<g ref="char:EOLhyphen"/>ſwade,</l>
+               <l>That ne'er Commanded, but was ſtill Obey'd?</l>
+               <l>Beauty, Wit and Majeſty,</l>
+               <l>Malicious thing, thou ſtol'ſt from me;</l>
+               <l>Things of ſmall account with thee;</l>
+               <l>Therefore thou more wicked ſtill,</l>
+               <l>That doſt it only to do ill.</l>
+               <l>To that degree thou waſt Prophane,</l>
+               <l>Thou would'ſt ee'ne her Mind have ſlain;</l>
+               <l>But that in a juſt Triumph ſate,</l>
+               <l>Above the reach of thee and Fate,</l>
+               <l>And ſhall eternally remain.</l>
+            </lg>
+            <lg>
+               <head>VII.</head>
+               <l>Rich Philoſophick Soul! thou waſt ſo good,</l>
+               <l>As Greatneſs ne'er yet underſtod.</l>
+               <l>Sweet was her Form, Majeſtick was her Meen,</l>
+               <l>Yet Juſt and Free;</l>
+               <l>Sh' had all befitting her Degree,</l>
+               <l>Only a Mind—too brave to be a QUEEN.</l>
+               <l>
+                  <pb n="8" facs="tcp:96051:5"/>
+                  <!-- PDF PAGE 111 -->
+Labour that meaner Spirits ſhun,</l>
+               <l>She ſought, that knew the Labour of a Crown.</l>
+               <l>Our Nurſing-Mother fed, not eat her Land,</l>
+               <l>The Eaſe ſhe was, not burden of the State,</l>
+               <l>And ſtill as if her own ſh' had vow'd to hate,</l>
+               <l>Imployment choſe before Command:</l>
+               <l>Not like thoſe Princes that profeſs</l>
+               <l>A Life of Royal Idleneſs.</l>
+               <l>Leiſure, rich Knowledge on her Mind beſtow'd,</l>
+               <l>And the World reap'd what there ſhe ſow'd.</l>
+               <l>Goodneſs ſhe ever held her nobleſt Art,</l>
+               <l>And <hi>Lemuel</hi>'s Leſſon had ſo well by Heart,</l>
+               <l>She was what <hi>Lemuel</hi>'s Mother wiſh'd her Son;</l>
+               <l>But no ſuch Match was found for <hi>Solomon.</hi>
+               </l>
+               <l>Could he with ſuch a Queen have met,</l>
+               <l>(By his own Rule) he had been more renown'd for Wiſdom yet.</l>
+            </lg>
+            <lg>
+               <head>VIII.</head>
+               <l>Worthy ſhe was alone,</l>
+               <l>To couch the Victor's Lawrel on the Monarch's Crown:</l>
+               <l>To entertain</l>
+               <l>Her thrice Heroick and that Princely Train,</l>
+               <l>Whom oft the Fate and buſineſs of the World convenes;</l>
+               <l>But many Foreign <hi>Solomons</hi> might here</l>
+               <l>One Queen admire,</l>
+               <l>And bleſs their happier Eyes for what they'd view'd,</l>
+               <l>More charming lovely, more ſurprizing good!</l>
+               <l>She that now Chants eternal Lays,</l>
+               <l>Above out Wonder and our Praiſe.</l>
+               <l>Pardon bleſt Soul continu'd ſhe,</l>
+               <l>If it ſhould here be thought</l>
+               <l>
+                  <hi>I</hi> caſt neglect on that you ſo did Prize,</l>
+               <l>Whom always worthy Deeds ſuch griefs now ſignalize.</l>
+               <l>
+                  <pb n="9" facs="tcp:96051:5"/>
+                  <!-- PDF PAGE 111 -->
+And were he yet leſs dear to me,</l>
+               <l>Thoſe glorious wonders could not be forgot,</l>
+               <l>Such as from far the Queen of <hi>Sheba</hi> brought.</l>
+               <l>Tho' now indeed much more familiar grown</l>
+               <l>In <hi>Britains</hi> than in <hi>Judah</hi>'s <hi>Solomon,</hi>
+               </l>
+               <l>Expos'd ſo oft, the wonder's almoſt none.</l>
+            </lg>
+            <lg>
+               <head>IX.</head>
+               <l>'Tis true, I ſtand poſſeſt of Royal <hi>Mary</hi>'s better part,</l>
+               <l>That has her mind, and had her heart;</l>
+               <l>That wears her Crown below, while ſhe ſits Crown'd above</l>
+               <l>With endleſs Glory, endleſs Love.</l>
+               <l>And did thoſe dear remains but ſtand</l>
+               <l>Above ſiniſter Fate,</l>
+               <l>I could my paſſions yet command,</l>
+               <l>And be again Sedate;</l>
+               <l>With thoughts like theſe becalm my Breaſt,</l>
+               <l>And even the ſullen grief digeſt.</l>
+               <l>But lo! when thus my better Genius lies</l>
+               <l>Beneath the Load and dies,</l>
+               <l>What can I do but Sympathize?</l>
+               <l>But muſt ſhe periſh whom he came to ſave,</l>
+               <l>
+                  <hi>Britannia</hi> find in her <hi>Naſſaw</hi> a Grave?</l>
+               <l>Riſe, Royal <hi>Mourner,</hi> riſe,</l>
+               <l>Ah fooliſh Maid, ſaid ſhe,</l>
+               <l>That ſtill doat'ſt on Mortality!</l>
+               <l>Is grief the deadly thing thou fearſt alone,</l>
+               <l>That haſt ſo many ways to be undone?</l>
+               <l>So many ways to loſe</l>
+               <l>Thy higheſt wiſh, thy beſt remaining joys?</l>
+               <l>So Brave and Mortal what I prize!</l>
+               <l>'Tis that brings all the watry deluge from off my Eyes.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:96051:6"/>
+               <!-- PDF PAGE 112 -->
+               <head>X.</head>
+               <l>'Tis that—were he immortal, or not worth my care,</l>
+               <l>All my Anxities were finiſh'd here.</l>
+               <l>But as he's great, expos'd, and good,</l>
+               <l>Shall I ſtand here defended by that Sacred Blood,</l>
+               <l>And for the Royal Stream drop a few beggarly Tears,</l>
+               <l>Or ſigh my poorer fears?</l>
+               <l>No I'd his hazards, and his glory ſhare:</l>
+               <l>Tell him, I'le for his ſake no ill decline</l>
+               <l>That all his dangers muſt be mine.</l>
+               <l>(At that methought I rais'd my head and bow'd.)</l>
+               <l>
+                  <hi>Britannia</hi> was of old renown'd in War,</l>
+               <l>Yet at <hi>Bellona</hi>'s Altar bows,</l>
+               <l>Pays old, and vainly makes new Vows</l>
+               <l>To be, alas, the Warlike Maid no more.</l>
+               <l>Ah happier <hi>Belgian</hi> ſhore!</l>
+               <l>A Cypher I, fix'd on my native Sands</l>
+               <l>Idly complain and ſtrike my uſeleſs hands.</l>
+            </lg>
+            <lg>
+               <head>XI.</head>
+               <l>But that no more I'le do,</l>
+               <l>No, I'le my ſtubborn martial man purſue.</l>
+               <l>And tell each ſculking <hi>Nereid,</hi>
+               </l>
+               <l>In thicken'd foam ſecurely hid,</l>
+               <l>Whom 'tis ſo oft frequents that Road;</l>
+               <l>Stile him ſome ſtranger River God,</l>
+               <l>Leſt thoſe bold Rayes too much ſurprize</l>
+               <l>Their female Deities;</l>
+               <l>Strangers to ſuch fierce Gallantries,</l>
+               <l>That take the ſolid world, and ſtole</l>
+               <l>Willing <hi>Britannia</hi>'s Soul.</l>
+               <l>
+                  <hi>Nymphs</hi> of the watry plain draw near,</l>
+               <l>He never fights with ſuch as you,</l>
+               <l>
+                  <pb n="11" facs="tcp:96051:6"/>
+                  <!-- PDF PAGE 112 -->
+Nor ever coſt a Maid a tear;</l>
+               <l>But ſuch as like <hi>Britannia</hi> hold him dear.</l>
+               <l>I charge you <hi>Nymphs,</hi> when he ſhall pleaſe,</l>
+               <l>On naked Shoulders rock him o're theſe Seas,</l>
+               <l>Secure with Pomp and Eaſe;</l>
+               <l>Ah then Beware,</l>
+               <l>For then my ſingle All's your care.</l>
+               <l>Bear him from each proud wave, each ruining ſhelf,</l>
+               <l>Through Paths by none more trac'd than by my ſelf;</l>
+               <l>
+                  <hi>Neptune</hi>'s my Friend, nor need I tell you ſo,</l>
+               <l>Oft through his liquid Plains I go,</l>
+               <l>And all the traces of the Ocean know.</l>
+            </lg>
+            <lg>
+               <head>XII.</head>
+               <l>From Griefs, from Sickneſs, and from Seas,</l>
+               <l>What boots it to be ſafe from theſe?</l>
+               <l>Seldom ſuch Natural things,</l>
+               <l>Become the Tragedy of Kings.</l>
+               <l>And ſhall I ſtill my Royal Lord expoſe</l>
+               <l>To Battle and degenerous Foes?</l>
+               <l>A thouſand Treacheries to one Life to loſe!</l>
+               <l>And may—(ah cruel thought) without me die.</l>
+               <l>No tho' my ſafer arms he fly,</l>
+               <l>And ſeeks a foreign Clime,</l>
+               <l>I will ev'n there his Buckler prove!</l>
+               <l>With him my lateſt Breath reſign,</l>
+               <l>That ſhuns the tenderer Dictates of my love.</l>
+               <l>Tell him, ſad Nymph (ſaid ſhe) and let him know,</l>
+               <l>Thou heardſt <hi>Britannia</hi> ſpeak it too;</l>
+               <l>For him my different Fortunes numerous lives</l>
+               <l>Succeſſively I'le ſacrifice:</l>
+               <l>Not darted flame I'd fear, nor pondrous flying Globe,</l>
+               <l>The weighty ill ſhould in theſe bowels throb:</l>
+               <l>I dare to dy—and more could do;</l>
+               <l>I've ſome ſmall skill in Battle too,</l>
+               <l>
+                  <pb n="12" facs="tcp:96051:7"/>
+                  <!-- PDF PAGE 113 -->
+But oh! he'l do as he has ever done,</l>
+               <l>And will be doing all alone.</l>
+            </lg>
+            <lg>
+               <head>XIII.</head>
+               <l>Alone with his bold Arm ſtretch'd out,</l>
+               <l>Like <hi>Mars</hi> himſelf the <hi>Hero</hi> ſtood,</l>
+               <l>Knee deep in Blood,</l>
+               <l>While Battle ſate in doubt,</l>
+               <l>That fatal day</l>
+               <l>When gallant <hi>Scomberg</hi> breathleſs lay,</l>
+               <l>And <hi>Mars</hi> look'd wondring on the bluſhing flood.</l>
+               <l>His ſingle Arm firſt ſtem'd the eager Tide,</l>
+               <l>Then turn'd the Vict'ry on our feebler ſide.</l>
+               <l>Three times beware brave Prince I cry'd,</l>
+               <l>And ſigh'd a thouſand cautions more,</l>
+               <l>Until the Tragick Scene was o're.</l>
+               <l>Methinks I ſee him yet careleſs and brave,</l>
+               <l>Purſuing Vict'ry or a glorious Grave;</l>
+               <l>As through rank'd Foes undauntedly he flung,</l>
+               <l>A purple Torrent from his Shoulder ſprung;</l>
+               <l>The King, the King! undone we cry'd.</l>
+               <l>(I die to tell) and all our Courage dy'd,—</l>
+               <l>But what for him's yet to be fear'd</l>
+               <l>That has Omnipotence for his Guard?</l>
+               <l>Yet beg him for my ſake beware,</l>
+               <l>That was <hi>Maria's</hi> dying care</l>
+               <l>Heaven's he is, as he is mine</l>
+               <l>Further doubting were a Crime.</l>
+               <l>Here the Genius of the Iſle</l>
+               <l>Clapt her fallen Turret on,</l>
+               <l>No more in tears, no more undone,</l>
+               <l>Odly vaniſh'd in a ſmile</l>
+               <l>And left me to my griefs alone.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
